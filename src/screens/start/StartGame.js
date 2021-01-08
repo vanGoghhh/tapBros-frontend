@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { removeToken, removeUser } from '../../actions';
 
 const StartGame = () => (
-    <h1>Hello World</h1>
+    <h1>Hello World</h1> // TODO
 );
 
 export default StartGame;

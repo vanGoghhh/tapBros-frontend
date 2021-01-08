@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import StartGame from './screens/start/StartGame';
+import StartGame from './screens/start';
 import allReducers from './reducers';
 
 const store = createStore(
