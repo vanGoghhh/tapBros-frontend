@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import StartGame from './screens/start';
+import NameScreen from './screens/start/nameScreen'
 import allReducers from './reducers';
 
 const store = createStore(
@@ -13,7 +14,8 @@ const store = createStore(
 
 ReactDOM.render(
   <Provider store={store}>
-    <StartGame />
+     <NameScreen/>
+
   </Provider>,
   document.getElementById('root'),
 );
