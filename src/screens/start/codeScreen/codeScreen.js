@@ -1,10 +1,12 @@
-import React from "react";
-import "./codeScreen.css";
+import React from 'react';
+import './codeScreen.css';
 
 
-const codeScreen = () => {
-    return (
-        <div>
-        </div>
-    )
-}
+const CodeScreen = () => {
+  return (
+    <div>
+    </div>
+  );
+};
+
+export default CodeScreen;
