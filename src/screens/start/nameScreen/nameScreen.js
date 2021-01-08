@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import "./nameScreen.scss";
 
@@ -32,6 +33,5 @@ const NameScreen = () => {
 			</div>
 		</div>
 	);
-};
 
 export default NameScreen;

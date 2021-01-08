@@ -1,6 +1,8 @@
+
 import React from "react";
-import "./codeScreen.css"
 import "./codeScreen.scss";
+
+
 
 const CodeScreen = () => {
 	const [gameCode, setGameCode] = useState("");
